@@ -25,9 +25,9 @@ install(DIRECTORY scripts/
       PATTERN "*.py"
       PERMISSIONS OWNER_EXECUTE OWNER_WRITE OWNER_READ
 )
-install(DIRECTORY launch
-  DESTINATION share/${PROJECT_NAME}
-)
-install(DIRECTORY config
-  DESTINATION share/${PROJECT_NAME}
-)
+# install(DIRECTORY launch
+#   DESTINATION share/${PROJECT_NAME}
+# )
+# install(DIRECTORY config
+#   DESTINATION share/${PROJECT_NAME}
+# )
